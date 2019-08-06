@@ -74,20 +74,21 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			<artifactId>spring-cloud-starter-sleuth</artifactId>
 			<version>2.0.1.RELEASE</version>
 		</dependency>
+		
 		<dependency>
-			<groupId>net.logstash.logback</groupId>
-			<artifactId>logstash-logback-encoder</artifactId>
-			<version>5.2</version>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-jdk15on</artifactId>
+			<version>1.6</version>
 		</dependency>
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
-			<version>2.7.0</version>
+			<version>2.9.2</version>
 		</dependency>
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
-			<version>2.7.0</version>
+			<version>2.9.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -111,7 +112,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<dependency>
 			<groupId>com.thoughtworks.xstream</groupId>
 			<artifactId>xstream</artifactId>
-			<version>1.4.10</version>
+			<version>1.4.11</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -162,11 +163,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
-			<version>2.0.1.RELEASE</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-sleuth</artifactId>
 			<version>2.0.1.RELEASE</version>
 		</dependency>
 		<dependency>
