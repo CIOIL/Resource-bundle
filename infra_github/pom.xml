@@ -112,7 +112,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<dependency>
 			<groupId>com.thoughtworks.xstream</groupId>
 			<artifactId>xstream</artifactId>
-			<version>1.4.11</version>
+			<version>1.4.15</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
